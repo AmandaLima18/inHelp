@@ -22,3 +22,11 @@ describe('CadastroProfissionaisPage', () => {
     expect(component).toBeTruthy();
   });
 });
+
+$('.cpf').mask('000.000.000-00', {reverse: true});
+unction MascaraCPF(cpf){
+  if(mascaraInteiro(cpf)==false){
+          event.returnValue = false;
+  }       
+  return formataCampo(cpf, '000.000.000-00', event);
+}
