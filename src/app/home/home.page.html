@@ -4,30 +4,96 @@
       <ion-buttons slot="start">
         <ion-menu-button></ion-menu-button>
       </ion-buttons>
-
-
-    <ion-title>Home</ion-title>
+      
+    <div class="logo">
+      <img src="../../assets/logo.png" width="20%"/>
+    </div>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
- 
-  <div class="col-12 col-md-4 itens">
-    <h1>ENCONTRE O PROFISSIONAL QUE VOCÊ PRECISA</h1>
-</div>
 
-<div class="col-12 col-md-4 itens">
-  <p>Digite uma palavra-chave. Ex: "Colocar pisos", "Ar-condicionado", "Eletricista"</p>
-</div>
-<ion-searchbar color="write" show-cancel-button="always"></ion-searchbar>
-    <div> 
-      <div class="col-12 col-md-4 itens">
-        <h2>Titulo</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias fugiat sit error earum hic
-            vel perferendis ad distinctio, voluptatem sint. Assumenda deserunt tempora reiciendis quibusdam
-            dolores accusantium qui ab vel?</p>
-    </div>
-    </div>
+  <ion-card id="profi">
+    <ion-card-header>
+      <ion-card-title>ENCONTRE O PROFISSIONAL QUE VOCÊ PRECISA</ion-card-title>
+    </ion-card-header>
+  </ion-card>
+  
+    <ion-item>
+      <ion-title>Digite uma palavra-chave. Ex: "Colocar pisos", "Ar-condicionado", "Eletricista"</ion-title>
+      
+    </ion-item>
+
+  <ion-searchbar color="write" show-cancel-button="always"></ion-searchbar>
+
+  <ion-card class="prof1">
+      <ion-item>
+        <ion-avatar slot="start">
+          <img src="../../assets/c1.jpg">
+        </ion-avatar>
+        <ion-label>
+          <h3>Claudio Costa</h3>
+          <h2>INSTALADOR DE REDE DE PROTEÇÃO</h2>
+
+            <div class="estrelas">
+              <h4> 5 Estrelas 
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          </h4>
+        </div>
+
+        <div class='local'>
+          <h6> <ion-icon name="location-outline"></ion-icon>
+            <p></p>4KM</h6>
+        </div>
+
+        <h1>Média de Preço <P>$$$$</P></h1>
+        <div class="avaliacao">
+          <p>Avaliações <ion-icon name="chatbox-ellipses"></ion-icon></p>
+        </div>
+
+        </ion-label>
+    </ion-item>
+  </ion-card>
+
+
+  <ion-card class="prof1">
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="../../assets/c1.jpg">
+      </ion-avatar>
+      <ion-label>
+        <h3>Claudio Costa</h3>
+        <h2> <p>INSTALADOR DE REDE DE PROTEÇÃO</h2>
+
+          <div class="estrelas">
+            <h4> 5 Estrelas 
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+        </h4>
+      </div>
+
+      <div class='local'>
+        <ion-icon name="location-outline"></ion-icon> 
+        <h6>4KM</h6>
+      </div>
+
+      <h6>Média de Preço</h6>
+
+      <div class="avaliacao">
+        <ion-icon name="chatbox-ellipses">Avaliações</ion-icon>
+
+
+      </div>
+      </ion-label>
+  </ion-item>
+</ion-card>
 
 
 </ion-content>
