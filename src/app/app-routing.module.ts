@@ -26,6 +26,14 @@ const routes: Routes = [
   {
     path: 'bairro',
     loadChildren: () => import('./bairro/bairro.module').then( m => m.BairroPageModule)
+  },
+  {
+    path: 'cadastro',
+    loadChildren: () => import('./cadastro/cadastro.module').then( m => m.CadastroPageModule)
+  },
+  {
+    path: 'agenda',
+    loadChildren: () => import('./agenda/agenda.module').then( m => m.AgendaPageModule)
   }
 ];
 

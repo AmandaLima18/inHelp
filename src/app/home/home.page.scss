@@ -4,6 +4,10 @@
 }
 
 
+.filtrar{
+    float:right;
+}
+
 ion-card{
     --ion-background-color: #C6825C;
     font-size: 15px;
@@ -22,7 +26,7 @@ section{
 }
 .prof1{
     width: 380px;
-    height: 200px;
+    height: 150px;
 }
 ion-card-title{
     font-size: 14px;
@@ -63,20 +67,25 @@ ion-card h6{
     height: initial;
 }
 
-.local ion-icon{
-    font-size: 25px;
-    text-align:end;
-    color:black
-}
-
 ion-card h1{
     font-size: 15px;
-    text-align: center;
+    text-align: initial;
 
 }
 
 ion-card p{
     font-size: 15px;
-    text-align: initial;
+    text-align: center;
 
+}
+.localizacao {
+    float:right;
+}
+
+.avaliacao {
+   text-align: center;
+}
+
+.star1 {
+    color: lavender;
 }

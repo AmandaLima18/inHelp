@@ -24,76 +24,187 @@
       
     </ion-item>
 
-  <ion-searchbar color="write" show-cancel-button="always"></ion-searchbar>
+  <ion-searchbar color="write" show-cancel-button="always" class="filtrar"></ion-searchbar>
 
   <ion-card class="prof1">
-      <ion-item>
+      <ion-item (click)="entrarchat()">
         <ion-avatar slot="start">
           <img src="../../assets/c1.jpg">
         </ion-avatar>
         <ion-label>
-          <h3>Claudio Costa</h3>
-          <h2>INSTALADOR DE REDE DE PROTEÇÃO</h2>
 
+            
             <div class="estrelas">
               <h4> 5 Estrelas 
-          <ion-icon name="star"></ion-icon>
-          <ion-icon name="star"></ion-icon>
-          <ion-icon name="star"></ion-icon>
-          <ion-icon name="star"></ion-icon>
-          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star" class="star"></ion-icon>
+          <ion-icon name="star" class="star"></ion-icon>
+          <ion-icon name="star" class="star"></ion-icon>
+          <ion-icon name="star" class="star"></ion-icon>
+          <ion-icon name="star" class="star"></ion-icon>
           </h4>
         </div>
 
-        <div class='local'>
-          <h6> <ion-icon name="location-outline"></ion-icon>
+        <div class='localizacao'>
+          <h6> <ion-icon name="location-outline" class="local"></ion-icon>
             <p></p>4KM</h6>
         </div>
 
-        <h1>Média de Preço <P>$$$$</P></h1>
+        <h1>Média de Preço <h1>$$$$</h1></h1>
         <div class="avaliacao">
           <p>Avaliações <ion-icon name="chatbox-ellipses"></ion-icon></p>
         </div>
+
+      </ion-label>
 
         </ion-label>
     </ion-item>
   </ion-card>
 
-
   <ion-card class="prof1">
-    <ion-item>
+    <ion-item (click)="entrarchat()">
       <ion-avatar slot="start">
-        <img src="../../assets/c1.jpg">
+        <img src="../../assets/c4.jpg">
       </ion-avatar>
       <ion-label>
-        <h3>Claudio Costa</h3>
-        <h2> <p>INSTALADOR DE REDE DE PROTEÇÃO</h2>
+
+        <ion-label>
+        <h3>Marcio Ferreira </h3>
+        <h2>INSTALADOR DE REDE DE PROTEÇÃO</h2>
 
           <div class="estrelas">
-            <h4> 5 Estrelas 
-        <ion-icon name="star"></ion-icon>
-        <ion-icon name="star"></ion-icon>
-        <ion-icon name="star"></ion-icon>
-        <ion-icon name="star"></ion-icon>
-        <ion-icon name="star"></ion-icon>
+            <h4> 4 Estrelas 
+        <ion-icon name="star" class="star"></ion-icon>
+        <ion-icon name="star" class="star"></ion-icon>
+        <ion-icon name="star" class="star"></ion-icon>
+        <ion-icon name="star" class="star"></ion-icon>
+        <ion-icon name="star" class="star1"></ion-icon>
         </h4>
       </div>
 
-      <div class='local'>
-        <ion-icon name="location-outline"></ion-icon> 
-        <h6>4KM</h6>
+      <div class='localizacao'>
+        <h6> <ion-icon name="location-outline" class="local"></ion-icon>
+          <p></p>2KM</h6>
       </div>
 
-      <h6>Média de Preço</h6>
-
+      <h1>Média de Preço <h1>$$$$</h1></h1>
       <div class="avaliacao">
-        <ion-icon name="chatbox-ellipses">Avaliações</ion-icon>
-
-
+        <p>Avaliações <ion-icon name="chatbox-ellipses"></ion-icon></p>
       </div>
+
+    </ion-label>
+
       </ion-label>
   </ion-item>
 </ion-card>
+<ion-card class="prof1">
+  <ion-item (click)="entrarchat()">
+    <ion-avatar slot="start">
+      <img src="../../assets/c2.jpg">
+    </ion-avatar>
+    <ion-label>
+
+      <ion-label>
+      <h3>Tânia Bernardes</h3>
+      <h2>INSTALADOR DE REDE DE PROTEÇÃO</h2>
+
+        <div class="estrelas">
+          <h4> 4 Estrelas 
+      <ion-icon name="star" class="star"></ion-icon>
+      <ion-icon name="star" class="star"></ion-icon>
+      <ion-icon name="star" class="star"></ion-icon>
+      <ion-icon name="star" class="star"></ion-icon>
+      <ion-icon name="star" class="star"></ion-icon>
+      </h4>
+    </div>
+
+    <div class='localizacao'>
+      <h6> <ion-icon name="location-outline" class="local"></ion-icon>
+        <p></p>6KM</h6>
+    </div>
+
+    <h1>Média de Preço <h1>$$$</h1></h1>
+    <div class="avaliacao">
+      <p>Avaliações <ion-icon name="chatbox-ellipses"></ion-icon></p>
+    </div>
+
+  </ion-label>
+
+    </ion-label>
+</ion-item>
+</ion-card>
+<ion-card class="prof1">
+  <ion-item (click)="entrarchat()">
+    <ion-avatar slot="start">
+      <img src="../../assets/c5.png">
+    </ion-avatar>
+    <ion-label>
+
+      <ion-label>
+      <h3>Alexandre Monteiro</h3>
+      <h2>INSTALADOR DE REDE DE PROTEÇÃO</h2>
+
+        <div class="estrelas">
+          <h4> 3 Estrelas 
+      <ion-icon name="star" class="star"></ion-icon>
+      <ion-icon name="star" class="star"></ion-icon>
+      <ion-icon name="star" class="star"></ion-icon>
+      <ion-icon name="star" class="star"></ion-icon>
+      <ion-icon name="star" class="star"></ion-icon>
+      </h4>
+    </div>
+
+    <div class='localizacao'>
+      <h6> <ion-icon name="location-outline" class="local"></ion-icon>
+        <p></p>9KM</h6>
+    </div>
+
+    <h1>Média de Preço <h1>$$$</h1></h1>
+    <div class="avaliacao">
+      <p>Avaliações <ion-icon name="chatbox-ellipses"></ion-icon></p>
+    </div>
+
+  </ion-label>
+
+    </ion-label>
+</ion-item>
+</ion-card>
+<ion-card class="prof1">
+  <ion-item (click)="entrarchat()">
+    <ion-avatar slot="start">
+      <img src="../../assets/c3.jfif">
+    </ion-avatar>
+    <ion-label>
+
+      <ion-label>
+      <h3>Felipe Rocha</h3>
+      <h2>INSTALADOR DE REDE DE PROTEÇÃO</h2>
+
+        <div class="estrelas">
+          <h4> 3 Estrelas 
+      <ion-icon name="star" class="star"></ion-icon>
+      <ion-icon name="star" class="star"></ion-icon>
+      <ion-icon name="star" class="star"></ion-icon>
+      <ion-icon name="star" class="star"></ion-icon>
+      <ion-icon name="star" class="star"></ion-icon>
+      </h4>
+    </div>
+
+    <div class='localizacao'>
+      <h6> <ion-icon name="location-outline" class="local"></ion-icon>
+        <p></p>4KM</h6>
+    </div>
+
+    <h1>Média de Preço <h1>$$$$</h1></h1>
+    <div class="avaliacao">
+      <p>Avaliações <ion-icon name="chatbox-ellipses"></ion-icon></p>
+    </div>
+
+  </ion-label>
+
+    </ion-label>
+</ion-item>
+</ion-card>
+ 
 
 
 </ion-content>
