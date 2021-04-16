@@ -1,5 +1,34 @@
 .logo{
     text-align: center;
-    background-color: #C6825C;
+}
+ion-content{
+    --background: url(../../assets/fundo.png) 0 0/100% 100% no-repeat;
+    }
+    
+ion-card{
+    --ion-background-color:rgb(255, 255, 255);
 }
 
+.calendar{
+    background-color:  #C6825C;
+}
+
+ion-label h1{
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+ion-chip{
+   text-align: center;
+}
+
+.chat h4{
+    font-size: 15px;
+    text-align: center;
+    float: right;
+}
+
+ion-card{
+color: black  
+  }

@@ -1,0 +1,48 @@
+  
+<ion-content>
+  <ion-header>
+    <ion-toolbar color="black">
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+    <ion-title>Meu Perfil</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+  
+  <ion-content>
+    <div class="area">
+      <img class="foto" src="../../assets/c1.jpg">
+      <h1>Cláudio Costa</h1>
+    </div>
+    <ion-card>
+      <ion-card-content>
+  
+        <ion-list lines="none" div class="dados">
+          <ion-item>
+            <ion-label position="stacked">E-mail</ion-label>
+            <ion-input value="claudiocosta@gmail.com"></ion-input>
+          </ion-item>
+  
+          <ion-item>
+            <ion-label position="stacked">Telefone</ion-label>
+            <ion-input value="(21) 99999-9999"></ion-input>
+          </ion-item>
+
+            <ion-item>
+              <ion-label position="stacked">Endereço</ion-label>
+              <ion-input value="Rua Barcelos Domingos, 59-Campo Grande"></ion-input>
+            </ion-item>
+          
+            <ion-item>
+              <ion-label position="stacked">Profissão</ion-label>
+              <ion-input value="Instalador rede de proteção"></ion-input>
+            </ion-item>
+
+            <ion-button color="medium" expand="full" (click)="logar()">Salvar dados</ion-button>
+
+        </ion-list>
+      </ion-card-content>
+    </ion-card>
+  </ion-content>
+</ion-content>

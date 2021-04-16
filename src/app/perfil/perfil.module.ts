@@ -4,19 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { AgendaPageRoutingModule } from './agenda-routing.module';
+import { PerfilPageRoutingModule } from './perfil-routing.module';
 
-import { AgendaPage } from './agenda.page';
+import { PerfilPage } from './perfil.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    AgendaPageRoutingModule
+    PerfilPageRoutingModule
   ],
-  declarations: [AgendaPage]
+  declarations: [PerfilPage]
 })
-export class AgendaPageModule {
-  
-}
+export class PerfilPageModule {}

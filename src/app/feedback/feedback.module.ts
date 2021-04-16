@@ -4,19 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { AgendaPageRoutingModule } from './agenda-routing.module';
+import { FeedbackPageRoutingModule } from './feedback-routing.module';
 
-import { AgendaPage } from './agenda.page';
+import { FeedbackPage } from './feedback.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    AgendaPageRoutingModule
+    FeedbackPageRoutingModule
   ],
-  declarations: [AgendaPage]
+  declarations: [FeedbackPage]
 })
-export class AgendaPageModule {
-  
-}
+export class FeedbackPageModule {}

@@ -23,10 +23,7 @@ const routes: Routes = [
     path: 'cadastro-profissionais',
     loadChildren: () => import('./cadastro-profissionais/cadastro-profissionais.module').then( m => m.CadastroProfissionaisPageModule)
   },
-  {
-    path: 'bairro',
-    loadChildren: () => import('./bairro/bairro.module').then( m => m.BairroPageModule)
-  },
+  
   {
     path: 'cadastro',
     loadChildren: () => import('./cadastro/cadastro.module').then( m => m.CadastroPageModule)
@@ -34,7 +31,23 @@ const routes: Routes = [
   {
     path: 'agenda',
     loadChildren: () => import('./agenda/agenda.module').then( m => m.AgendaPageModule)
-  }
+  },
+  {
+    path: 'perfil',
+    loadChildren: () => import('./perfil/perfil.module').then( m => m.PerfilPageModule)
+  },
+  {
+    path: 'chat',
+    loadChildren: () => import('./chat/chat.module').then( m => m.ChatPageModule)
+  },
+  {
+    path: 'pagamento',
+    loadChildren: () => import('./pagamento/pagamento.module').then( m => m.PagamentoPageModule)
+  },
+  {
+    path: 'feedback',
+    loadChildren: () => import('./feedback/feedback.module').then( m => m.FeedbackPageModule)
+  },
 ];
 
 @NgModule({

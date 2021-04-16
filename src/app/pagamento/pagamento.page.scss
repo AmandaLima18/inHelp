@@ -1,12 +1,14 @@
 .logo{
     text-align: center;
 }
-
 ion-content{
     --background: url(../../assets/fundo.png) 0 0/100% 100% no-repeat;
     }
-
+    
 ion-card{
     --ion-background-color:rgb(255, 255, 255);
 }
 
+ion-label .avatar{
+   background-color: #C6825C;
+}

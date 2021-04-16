@@ -4,19 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { AgendaPageRoutingModule } from './agenda-routing.module';
+import { PagamentoPageRoutingModule } from './pagamento-routing.module';
 
-import { AgendaPage } from './agenda.page';
+import { PagamentoPage } from './pagamento.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    AgendaPageRoutingModule
+    PagamentoPageRoutingModule
   ],
-  declarations: [AgendaPage]
+  declarations: [PagamentoPage]
 })
-export class AgendaPageModule {
-  
-}
+export class PagamentoPageModule {}

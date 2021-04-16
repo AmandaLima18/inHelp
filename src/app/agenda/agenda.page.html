@@ -1,18 +1,66 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>Agenda do Profissional</ion-title>
+<ion-content>
+  <ion-header>
+    <ion-toolbar color="white">
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+    <ion-title>Agenda</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-item class="calendar">
+  <ion-label position="floating">DD/MM/YYYY</ion-label>
+  <ion-datetime display-format="DD/MM/YYYY" min="2017-03-14" max="2021-12-29"></ion-datetime>
+</ion-item>
 
-  <h1> Claudio Costa</h1>
+<ion-label>
+  <ion-card>
+  <div class="dados">
+  <h1>Cliente: Márcia Conceição</h1>
+  <h2>Serviço: Instalar rede de proteção</h2>
+  <h2>Horário: 13:30hrs</h2>
+  <h2>Endereço: Est da Posse, 587. Casa x - Santíssimo</h2>
+  <h2>Telefone: (21) xxxxx-xxxx</h2>
+  <h2>Preço estimado: R$ 350,00</h2>
 
-  <h2> Cliente: Maria</h2>
-  <h3>  <ion-icon name="calendar-outline"></ion-icon>Data: 02/05/2021 </ion-icon>
-    <ion-icon name="time-outline"></ion-icon> Horário agendado: 13:30hrs </h3>
-  <h4>Valor estimado do serviço: R$ 90,00</h4>
+  
 
-  <h5> <ion-icon name="location-outline"></ion-icon>Endereço: Rua Barcelos Domingos, 26 - Campo Grande/Rj  </h5>
-  <h6><ion-icon name="call-outline"></ion-icon> (21) 99999-9999</h6>
+  <ion-chip>
+    <div class="chat">
+      <h4> Enviar mensagem
+        <ion-icon name="chatbubbles"></ion-icon> 
+          <ion-label></ion-label>
+        
+  </h4>
+</div>
+</ion-chip>
+</div>
+</ion-card>
+</ion-label>
+
+
+<ion-label>
+  <ion-card>
+  <div class="dados">
+  <h1>Cliente: Dolores da Silva</h1>
+  <h2>Serviço: Orçamento</h2>
+  <h2>Horário: 15:00hrs</h2>
+  <h2>Endereço: Av. Santa Cruz, 6845. Casa x </h2>
+  <h2>Telefone: (21) xxxxx-xxxx</h2>
+  <h2>Preço estimado: R$ 0,00</h2>
+
+  <ion-chip>
+    <div class="chat">
+      <h4> Enviar mensagem
+        <ion-icon name="chatbubbles"></ion-icon> 
+          <ion-label></ion-label>
+        
+  </h4>
+</div>
+</ion-chip>
+</div>
+</ion-card>
+</ion-label>
+
+
 </ion-content>

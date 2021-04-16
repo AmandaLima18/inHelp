@@ -4,19 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { AgendaPageRoutingModule } from './agenda-routing.module';
+import { ChatPageRoutingModule } from './chat-routing.module';
 
-import { AgendaPage } from './agenda.page';
+import { ChatPage } from './chat.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    AgendaPageRoutingModule
+    ChatPageRoutingModule
   ],
-  declarations: [AgendaPage]
+  declarations: [ChatPage]
 })
-export class AgendaPageModule {
-  
-}
+export class ChatPageModule {}
