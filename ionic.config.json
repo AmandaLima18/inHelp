@@ -1,5 +1,7 @@
 {
   "name": "inhelp",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }

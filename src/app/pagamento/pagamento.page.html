@@ -17,7 +17,7 @@
     <div class="dados">
   
       <ion-card>
-  
+        <ion-card-content>
         <p>Digite seus dados para confirmar o pagamento</p>
   
         <ion-input placeholder="Cpf"></ion-input>
@@ -27,16 +27,42 @@
         <ion-input placeholder="Senha"></ion-input>
   
         <p>Valor: R$ 350,00</p>
-  
+      </ion-card-content>
+      </ion-card>
 
-        <p>Digite seus dados do cartão</p>
-  
-        <ion-input placeholder="Número do cartão"></ion-input>
-  
-        <ion-input placeholder="CVV"></ion-input>
-  
-        <ion-input placeholder="Data de Validade"></ion-input>
+      </div>
 
+
+
+<div class="cartao">
+
+  <ion-card>
+    <ion-card-content>
+
+        <p>Digite seus dados do cartão<ion-icon name="card-outline"></ion-icon></p>
+  
+        <ion-item>
+        <ion-label position="floating">Nome do titular</ion-label>
+                <ion-input placeholder="Nome impresso no cartão"></ion-input>
+        </ion-item>
+
+          <ion-item>
+          <ion-label position="floating">Número do cartão</ion-label>
+            <ion-input placeholder="0000 0000 0000 0000"></ion-input>
+          </ion-item>
+
+          <ion-item>
+            <ion-label position="floating">Validade</ion-label>
+              <ion-input placeholder="MM/AA"></ion-input>
+            </ion-item>
+
+
+            <ion-item>
+              <ion-label position="floating">Código de Segurança</ion-label>
+                <ion-input placeholder="CVV"></ion-input>
+              </ion-item>
+  
+        
         <ion-label position="floating">Parcelamento</ion-label>
         <ion-select>
           <ion-select-option value="">Á VISTA</ion-select-option>
@@ -45,11 +71,13 @@
         </ion-select>
   
   
-        
-      </ion-card>
+       
       <ion-button expand="full">Confirmar pagamento</ion-button>
-  
-    
+
+      </ion-card-content>
+
+    </ion-card>
     </div>
-  </ion-header>
+
+      </ion-header>
   </ion-content>

@@ -1,0 +1,32 @@
+.logo{
+    text-align: center;
+}
+
+ion-content{
+    --background: url(../../assets/fundo.png) 0 0/100% 100% no-repeat;
+    }
+
+ion-card{
+    --ion-background-color:rgb(255, 255, 255);
+}
+
+
+.text{
+    text-align: center;
+    font-size: 15px;
+}
+
+.img{
+        width: 90px;
+        height: 90px;
+        border-radius: 90px;
+        border: 1px solid #fff;
+    }
+.area{
+    text-align: center;
+}
+
+
+.star{
+    font-size: 20px;
+}

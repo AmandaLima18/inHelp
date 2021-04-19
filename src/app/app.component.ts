@@ -6,12 +6,18 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   public appPages = [
-    { title: 'Cadastrar Profissionais', url: '/cadastro-profissionais', icon: 'mail' },
-    { title: 'Bairro', url: '/bairro', icon: 'paper-plane' },
-    { title: 'Home', url: '/home', icon: 'heart' },
-    { title: 'Sair', url: '/login', icon: 'archive' },
-    { title: 'Trash', url: '/folder/Trash', icon: 'trash' },
-    { title: 'Spam', url: '/folder/Spam', icon: 'warning' },
+    { title: 'Home', url: '/home', icon: 'home' },
+    { title: 'Cadastrar Profissionais', url: '/cadastro-profissionais', icon: 'person-add' },
+    { title: 'Cadastro Usuário', url: '/cadastro', icon: 'person-add' },
+    { title: 'Perfil', url: '/perfil', icon: 'person-circle' },
+    { title: 'Pagamento', url: '/pagamento', icon: 'card' },
+    { title: 'FeedBack', url: '/feedback', icon: 'reader' },
+    { title: 'Agenda', url: '/agenda', icon: 'calendar' },
+    { title: 'Contratos Anteriores', url: '/contratacoes', icon: 'folder' },
+    { title: 'Chat', url: '/chat', icon: 'chatbubbles' },
+    { title: 'Sair', url: '/login', icon: 'enter' },
+
+
   ];
   public labels = [];
   constructor() {}
